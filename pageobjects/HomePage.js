@@ -15,7 +15,7 @@ exports.HomePage = class HomePage {
     {
         await this.usernameInput.fill(username);
         await this.passwordInput.fill(password);
-        await console.log("Login button is visible:");
+      //  await console.log("Login button is visible:");
         await this.loginButton.click();
     }
     
